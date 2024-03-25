@@ -1,20 +1,18 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
-    name: "PurchaseConnector-Dynamic",
+    name: "AppsFlyerLib",
     products: [
-        .library(name: "PurchaseConnector-Dynamic", targets: ["PurchaseConnector"]),
-    ],
-    dependencies: [
+        .library(
+            name: "AppsFlyerLib-Dynamic",
+            targets: ["AppsFlyerLib"])
     ],
     targets: [
         .binaryTarget(
-            name: "PurchaseConnector",
-            url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector/releases/download/6.13.1/purchase-connector-dynamic.xcframework.zip",
-            checksum: "6342e83b54db7768e95c418846add16d58d7faf7c21e344364291f5014f5a7f1"
-        ),
+            name: "AppsFlyerLib",
+            url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework/releases/download/6.13.1/AppsFlyerLib-Dynamic.xcframework.zip",
+            checksum: "c0b8bb73dacbc3930970d9e89e31c096bdcdc4b40a102847bb9358767aa65342"
+        )
     ]
 )
