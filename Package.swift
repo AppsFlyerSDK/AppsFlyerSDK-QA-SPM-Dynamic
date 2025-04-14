@@ -1,6 +1,5 @@
 // swift-tools-version:5.3
 import PackageDescription
-
 let package = Package(
     name: "AppsFlyerLib",
     products: [
@@ -11,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppsFlyerLib",
-            url: "https://github.com/AppsFlyerSDK/appsflyer-apple-sdk-qa/releases/download/6.16.2.229/AppsFlyerLib-Dynamic-SPM.xcframework.zip",
-            checksum: "ecc3038647211bf51636cc125be29ab3f820a3dc486b9d5f26a93d69df64d17d"
+            url: "https://github.com/AppsFlyerSDK/appsflyer-apple-sdk-qa/releases/download/6.17.0.19450585/AppsFlyerLib-Dynamic-SPM.xcframework.zip",
+            checksum: "b076b24c98f9ceb633a497619142eeb6053a874124d6a970b77c71c1ff1a51e7"
         )
     ]
 )
